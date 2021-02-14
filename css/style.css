@@ -1,0 +1,417 @@
+@font-face {
+  font-family: ar-font;
+  src: url(../fonts/Cairo-SemiBold.ttf);
+}
+body {
+  direction: rtl;
+  font-family: ar-font;
+}
+i {
+  color: #fff;
+}
+h3 {
+  margin-bottom: 50px;
+}
+header.header video {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+header.header .overlay {
+  background-color: #fff;
+  opacity: 0.7;
+}
+header.header .overlay .header-text {
+  margin-top: 7rem;
+}
+header.header .overlay .header-text h3 {
+  font-size: 30px;
+  margin-bottom: 40px;
+  line-height: 46px;
+}
+header.header .overlay .header-text p {
+  font-size: 18px;
+  color: #5d5d5d;
+  line-height: 32px;
+  margin-bottom: 50px;
+  width: 70%;
+}
+header.header .overlay .header-text .bottons {
+  border-radius: 0;
+  font-size: 18px;
+  line-height: 32px;
+  padding: 8px 25px;
+}
+header.header .overlay .header-text .bottons button:first-of-type {
+  background-color: #7936b2;
+  color: #fff;
+  margin-left: 15px;
+}
+header.header .overlay .header-text .bottons button:last-of-type {
+  background-color: transparent;
+  color: #7936b2;
+  transition: all 0.7s ease;
+}
+
+header.header .overlay .header-text .bottons button:last-of-type:hover {
+  background-color: #7936b2;
+  color: #fff;
+}
+header.header .overlay .proudct-img {
+  z-index: -12;
+  position: relative;
+}
+header.header .overlay .proudct-img img.phone {
+  margin-bottom: 10%;
+}
+header.header .overlay .proudct-img img.label {
+  position: absolute;
+  top: -25px;
+  right: -45px;
+}
+header.header .overlay .proudct-img p {
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  color: #fff;
+}
+header.header .overlay .navbar {
+  margin-bottom: 16px;
+}
+/* section style */
+
+h4 {
+  font-size: 34px;
+  color: #5d5d5d;
+  line-height: 120px;
+}
+section.features {
+  background-color: #fff;
+  padding: 25px 0;
+}
+section.features .title::after {
+  content: " ";
+  position: absolute;
+  bottom: -20px;
+  width: 150px;
+  height: 2px;
+  background-color: #7233a2;
+  left: 50%;
+  transform: translateX(-50%);
+}
+section.features .title {
+  position: relative;
+  margin-bottom: 20px;
+}
+/* media style */
+section.features .feature {
+  padding: 70px 0;
+  border-bottom: 3px solid #eeeeee;
+}
+section.features .feature .media {
+  display: flex;
+}
+section.features .feature .media .media-body h5 {
+  padding: 3px 20px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #7233a2;
+  border-right: 2px solid #7233a2;
+  margin-bottom: 50px;
+}
+section.features .feature .media .media-body h5.item {
+  padding: 3px 20px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #7233a2;
+  border-left: 2px solid #7233a2;
+  margin-bottom: 50px;
+  border-right: none;
+}
+
+section.features .feature .media .media-body p {
+  font-size: 18px;
+  line-height: 32px;
+  color: #555555;
+}
+section.features .feature .media img {
+  margin: 0 4rem;
+}
+section.features .feature .media .media-body {
+  margin-top: 50px;
+}
+section.features .feature:nth-of-type(even) {
+  text-align: left !important;
+}
+section.features .feature:nth-of-type(even).media .media-body h5 {
+  border-right: 0px;
+  border-left: 2px solid #7233a2;
+}
+
+/* price */
+
+section.prices {
+  padding: 55px 0;
+  background-color: #f7f7f7;
+}
+section.prices .title h3 {
+  font-size: 30px;
+  color: #555;
+}
+section.prices .plan {
+  background-color: #fff;
+  color: #a9a9ab;
+  border: 2px solid #ededed;
+  padding-top: 15px;
+  margin-top: 100px;
+}
+section.prices .plan p {
+  color: #a044ff;
+  font-size: 18px;
+  text-align: center;
+}
+section.prices .plan h3 {
+  font-size: 50px;
+  margin: 30px auto;
+}
+
+section.prices .plan h3 span {
+  font-size: 15px;
+  vertical-align: bottom;
+}
+section.prices .plan ul {
+  padding: 0;
+  margin: 0;
+}
+section.prices .plan ul li {
+  font-size: 15px;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+section.prices .plan button {
+  background-color: #fff;
+  border: 2px solid #7936b2;
+  color: #7936b2;
+  font-family: ar-font;
+  border-radius: 0;
+  padding: 0.5rem 1.75rem;
+}
+section.prices .plan button:hover {
+  background-color: #7936b2;
+  color: #fff;
+}
+section.prices .plan.populer {
+  margin-top: 70px;
+  padding-top: 75px;
+}
+section.prices .plan.populer button {
+  background-color: #7936b2;
+  border: 2px solid #7936b2;
+  color: #fff;
+}
+section.prices .plan.populer button:hover {
+  background-color: #fff;
+  color: #7936b2;
+}
+/* END OF Price */
+
+/*  start faq */
+
+section.faq {
+  padding: 55px 0;
+  background-color: #fff;
+  font-size: 30px;
+  color: #555;
+}
+section.faq .title h3 {
+  font-size: 30px;
+  color: #555;
+}
+section.faq .card {
+  margin-bottom: 15px;
+  border: 1px solid #ebebee;
+  border-radius: 0;
+}
+section.faq .card .card-header {
+  background-color: transparent;
+  border-bottom: 0;
+}
+section.faq .card .card-header h5 a {
+  font-size: 22px;
+  color: #555555;
+}
+.card-block {
+  font-size: 18px;
+}
+
+/* start video style */
+section.video {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+section.video video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+section.video .overlay {
+  background-color: rgba(106, 48, 147, 0.4);
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+section.video button {
+  outline: none;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  font-size: 30px;
+  font-family: ar-font;
+  color: #ffffff;
+  background-color: transparent;
+  border: 0px;
+  transform: translate(50%, -50%);
+}
+section.video button {
+  outline: none;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  font-size: 30px;
+  font-family: ar-font;
+  color: #ffffff;
+  background-color: transparent;
+  border: 0px;
+  transform: translate(50%, -50%);
+}
+section.video button i {
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  line-height: 90px;
+  margin-bottom: 50px;
+}
+/* end of video section */
+
+/* start contact section */
+section.contact {
+  background-color: #131313;
+  padding: 60px 0 40px;
+}
+section.contact .contact-us .title h4 {
+  font-size: 18px;
+  line-height: 50px;
+  color: #758594;
+}
+
+section.contact .contact-us form .form-group {
+  margin-bottom: 6px;
+}
+section.contact .contact-us form .form-group input,
+section.contact .contact-us form .form-group textarea {
+  border-radius: 3px;
+  background-color: #242424;
+  font-size: 18px;
+  line-height: 35px;
+  color: #aeadad;
+  font-family: ar-font;
+  border: none;
+}
+
+section.contact .contact-us form button {
+  font-size: 18px;
+  border: 0px;
+  background-color: #7233a2;
+  color: #ffffff;
+  font-family: ar-font;
+  border-radius: 3px;
+  padding: 7px 24px;
+}
+section.contact .contact-us form .form-group .error {
+  color: red;
+}
+
+section.contact .other-products .title h4 {
+  font-size: 18px;
+  line-height: 50px;
+  color: #758594;
+}
+section.contact .other-products .media {
+  display: flex;
+}
+section.contact .other-products .media .media-body {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+section.contact .other-products .media .media-body h5 {
+  font-size: 18px;
+  color: #aeadad;
+  margin-bottom: 15px;
+}
+section.contact .other-products .media .media-body p {
+  font-size: 15px;
+  line-height: 20px;
+  color: #737373;
+}
+section.contact .other-products .media {
+  margin-bottom: 25px;
+}
+/* end of contact section */
+/* footer */
+
+footer {
+  background-color: rgba(0, 0, 0, 90%);
+  line-height: 80px;
+  text-align: center;
+  height: 30vh;
+}
+footer ul li a {
+  width: 60px;
+  height: 60px;
+  line-height: 70px;
+  display: block;
+  text-align: center;
+  background-color: #718292;
+  border-radius: 50%;
+  margin-top: 25px;
+}
+footer ul {
+  padding: 0;
+  margin: 0;
+}
+footer ul li {
+  margin-left: 20px;
+  margin-right: 0 !important;
+}
+footer ul li a.facebook:hover {
+  background-color: rgb(6, 6, 104);
+}
+footer ul li a.link:hover {
+  background-color: rgb(116, 3, 3);
+}
+footer ul li a.instagram:hover {
+  background-color: rgb(112, 7, 98);
+}
+footer ul li a.twitter:hover {
+  background-color: rgb(37, 137, 231);
+}
+.copyright {
+  font-size: 20px;
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 1px;
+  direction: ltr;
+}
+
+/* end of footer */
